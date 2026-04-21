@@ -1,60 +1,39 @@
-<div align="center">
-  <img height="150" src=""  />
-</div>
 
-###
 
-<div align="center">
-</div>
+<p align="center"><img src="https://github.com/TXVirus17/Traducciones_submods_MAS/blob/main/iconos/icono.png?raw=true" width="300"></p>
 
-###
+# ¡Hola! Soy TX_Virus 👋
 
-<div align="center">
-  <img src="https://count.getloli.com/@:TXVirus17?theme=booru-rfck&padding=8&scale=1&align=top&pixelated=1&darkmode=auto"  />
-</div>
+Estudiante de **Ingeniería en Sistemas** en la Universidad de El Salvador (UES) y entusiasta de la personalización de software.
 
-###
+---
 
-<h1 align="center">Traducciones MAS</h1>
+## 🛠️ Sobre mí
+- 💻 Actualmente enfocado en la **traducción y optimización de submods** para Monika After Story (MAS).
+- 🐧 Usuario apasionado de **Linux** (Ubuntu / Debian).
+- 🔒 Interesado en el mundo de la **Ciberseguridad**.
+- 📚 Aprendiendo lógica de programación y algoritmos.
 
-###
+---
 
-<h3 align="left">👩‍💻  About Me</h3>
+## 🚀 Proyectos Actuales
+| Proyecto | Estado | Descripción |
+| :--- | :---: | :--- |
+| **MAS_yandere (Español)** | 🔴 | Traducción completa de diálogos y eventos. |
+| **Extraplus (Español)** | 🟡 | Traducción en progreso y corrección de bugs. |
 
-###
+---
 
-<p align="left">I'm ... from ....<br><br>- 🔭 I’m working as ...<br>- 📚 I'm currently learning ...<br>- ⚡ In my free time I ...</p>
+## 🧪 Tecnologías & Herramientas
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E9430F?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-###
+---
 
-<h3 align="left">🛠 Language and tools</h3>
+## 📫 Contacto
+- Puedes encontrar mis traducciones en la sección de **Repositories** o descargarlas directamente en el apartado de **Releases**.
 
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="40" alt="go logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="40" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" height="40" alt="ruby logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" height="40" alt="dot-net logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" height="40" alt="circleci logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="docker logo"  />
-</div>
-
-###
-
-<h3 align="left">🔥   My Stats :</h3>
-
-###
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=TXVirus17&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
+*"Hacer que los demás lleguen a la cima sin importar lo que me pase."* 💚
