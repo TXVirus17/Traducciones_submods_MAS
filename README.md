@@ -1,6 +1,6 @@
 
 
-<p align="center"><img src="https://github.com/TXVirus17/Traducciones_submods_MAS/blob/main/iconos/icono.png?raw=true" width="300"></p>
+<p align="center"><img src="https://github.com/TXVirus17/Traducciones_submods_MAS/blob/main/iconos/8e4dac945ef601620894eff6748c1715(1).gif?raw=true" width="900"></p>
 
 # ¡Hola! Soy TX_Virus 👋
 
