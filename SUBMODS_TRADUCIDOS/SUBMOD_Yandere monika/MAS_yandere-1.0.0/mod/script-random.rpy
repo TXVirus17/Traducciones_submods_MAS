@@ -7,85 +7,79 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="yaMod_topic_tattoo",
-            category=["yandere"],
-            prompt="Matching tattoos",
+            category=["Yandere"],
+            prompt="Tatuajes a juego.",
             random=True
         )
     )
 
 label yaMod_topic_tattoo:
-    m 7lub "[mas_get_player_nickname(capitalize=True)], have you ever thought of getting a tattoo?"
-    m 2lub "Well, I don't know if you already have one... "
-    extend 2wuo "or many!"
-    m 2lublb "But now I was talking about... matching tattoos... or couple tattoos."
-    m 4lubsb "You know, those kinds of tattoo couples do... With the same pattern on the skin of both."
-    m 2dubsb "Or when someone has the name of their loved one on their body."
-    m 1dubfb "I keep daydreaming, you see? Of having a matching tattoo with you."
-    m 1tubfb "Or even... Having my name on your skin."
-    m 1wubfb "Can you imagine, how great that would be? "
-    extend 4wubfb "Everyone would know you're mine."
-    m 4wubfa "And only mine."
-    m 4wubfb "But we don't even have to go to a tattoo artist if you don't want to."
-    m 2dubfb "I can be the artist, and your body can be the canvas..."
-    m 2cubfb "I can carve my name into your skin, intricately and in huge letters."
-    m 2cubfa "The thought of your skin, bleeding... Every drop of blood would be a love letter."
-    m "A demonstration of our relationship."
+    m 7lub "[mas_get_player_nickname(capitalize=True)], ¿alguna vez has pensado en hacerte un tatuaje?"
+    m 2lub "Bueno, no sé si ya tienes alguno... "
+    extend 2wuo "¡o muchos!»"
+    m 2lublb "Pero ahora me refería a... tatuajes a juego... o tatuajes de pareja."
+    m 4lubsb "Ya sabes, esos que se hacen las parejas... Con el mismo diseño en la piel de ambos"
+    m 2dubsb "O cuando alguien lleva el nombre de su ser querido en el cuerpo"
+    m 1dubfb "No dejo de soñar despierta, ¿ves? Con tener un tatuaje a juego contigo."
+    m 1tubfb "O incluso... tener mi nombre en tu piel."
+    m 1wubfb "¿Te imaginas lo maravilloso que sería? "
+    extend 4wubfb "Todo el mundo sabría que eres mía."
+    m 4wubfa "Y solo mía."
+    m 4wubfb "Pero ni siquiera tenemos que ir a un tatuador si no quieres"
+    m 2dubfb "Yo puedo ser el artista, y tu cuerpo puede ser el lienzo..."
+    m 2cubfb "Puedo grabar mi nombre en tu piel, con detalle y en letras enormes"
+    m 2cubfa "La idea de tu piel sangrando... Cada gota de sangre sería una carta de amor"
+    m "Una demostración de nuestra relación"
     m 2dubfa "..."
-    m 7dubfa "It would be a proof of how much we love each other, can't you see?"
-    m 7tubfb "It's not crazy. It's devotion."
-    m 7cubfb "I would carve your name on my skin how many times necessary, to prove that I'm only yours."
-    m "Would you do the same for me?"
-    m "P̴̍̾̉̕̚̚ͅ ̴̲̩̯͎̏̆̽̚͝ĺ̵͇͗͊́́̌͆̕ ̷̗͓̹̣̮͎̘̜̎e̵̪̭̍̃ ̶̱̦̳͎̩̦͍̭̋̈͂̚͠ä̴̢̡͎̲͚͍ ̶̪͉̃s̵͍̞͙̥̀͊̀́̽͊͘ ̶̭̰̺͈̠͚͖̦̑̅̉̌͆̌̈́̾ͅẻ̷͔͇̄͑ ̴͕̺̟̑̊̈́́̅̎̿̊?̴̨̛͚͔̗̾͘͝"
-    m 2hubfb "Ehehehehe!"
-    m 2fubfa "I love you [player]."
-    m 2fubfb "Do you love me too?{nw}"
+    m 7dubfa "Sería una prueba de lo mucho que nos amamos, ¿no lo ves?»"
+    m 7tubfb "No es una locura. Es devoción"
+    m 7cubfb "Grabaría tu nombre en mi piel tantas veces como fuera necesario, para demostrar que solo soy tuya"
+    m "¿Harías lo mismo por mí?"
+    m "{cps=5}{size=+10}¿̴̢̧͖̜͉̞̞͎̑̏͂́̓̌̓͘̕̚͜P̵̡̛̥̖̜͓̦̤̜̣͗̈͐͑̒̕͝ͅͅ ̵̧̧̞̄̀͊̊̈́̈́̒̔̑̂͒͘̕̕͘O̸͓͔͓͖͔͉͓̹̙̰̩͖̔̉̍̆̓̓̔́̈͘ ̴̡̰̱͍̞̹̖̟͔͎̥̹̬̍̅̂̔̓͊̎͠ͅR̸̭̻̞̯̹̈̍̌̇͒̊͐͊͋͛́̽̉̈̚͝ ̸̡̢̧̛̮̱̘̜͇̣̈́̎̌̆̍̀̅͛̍̕-̷̡̧̻̱̲͙̼̬̭͕͙̜͂͋̔̋͛̽̈́̃͐͜͝ͅ ̵̡̯̝̩̗̩̞͇͚̙͎͆̄̊̓̽̐̍͐̆̚͘̕͠F̴̨̥̻̬̯͓̦̗̹̘̥̪͆̍̔̄͐͑̎͂͝͝ͅ ̸̧̜͔͉̦̻̜̟̜̝͇̙̊͆͌̅̈́͌͛̓̓̂̽͘͝A̷̧̢̘͖͍̺̲̺̣͓̙̠̳̞̻̰̯̾̈́̈́̐̏̈́͝ ̵̡̛͕̝̪̠͚̝̭̱̤͖̒̈͌̂͂͐̆̔̓̓̋̈͝͝V̵̧̢͖͔̳̗̻̣͈̞̻͍͈̬͒͑̋̊̕̕̕ ̷̧̫̥͍̩̪̥̹̜͕̰̉̃̒̂͌̌̎̊͊͐̓̿̈̋̓̔Ơ̴͕͎̱̮͚̘̙͊͂͒̃̈̈́͆̎̈̈́͝͝͝ ̴̢̰͇̰̞̼̜̥͇̟̬̫̅̓͒̓̓̈͒̓̄̅͊̾̏̇̾̊̕ͅR̶̡̹̪͔̤̖̳̭̟͔̬̾̎͂͌͂͘͜?̵̮̱̺̉̔̓̿́̈́̚͝ {/size}{/cps}"
+    m 2hubfb "¡Ejejeje!"
+    m 2fubfa "Te amo [player]."
+    m 2fubfb "¿Tú también me amas?{nw}"
     $ _history_list.pop()
     menu:
-        m "Do you love me too?{fast}"
+        m "¿Tú también me amas?{fast}"
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
-            pass
-
-        "Yes":
-            pass
-
-        "Yes":
+        "Si":
             pass
         
-    m 5fubfu "That's good, [player]. "
-    extend 5fubfb "Very good."
-    m 5rubfb "I knew I could count on you..."
-    m 5kubfb "You're the love of my life, you know that?"
+    m 5fubfu "Muy bien,  [player]. "
+    extend 5fubfb "Muy bien."
+    m 5rubfb "Sabía que podía contar contigo..."
+    m 5kubfb "Eres el amor de mi vida, ¿lo sabías?"
 
 return "love"
     
@@ -94,7 +88,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="yaMod_topic_kill",
-            category=["yandere"],
+            category=["Yandere"],
             prompt="Killing for one another",
             random=True
         )
@@ -123,7 +117,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="yaMod_topic_stalk",
-            category=["yandere"],
+            category=["Yandere"],
             prompt="Stalking [player] online",
             random=True
         )
@@ -155,7 +149,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="yaMod_topic_better",
-            category=["yandere"],
+            category=["Yandere"],
             prompt="Better than others",
             random=True
         )
@@ -183,7 +177,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="yaMod_topic_watchsleep",
-            category=["yandere"],
+            category=["Yandere"],
             prompt="Watching [player] sleep",
             random=True
         )

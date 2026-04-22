@@ -1,9 +1,10 @@
+# PENDIENTE DE REVISIÓN
 init 5 python:
     addEvent(
         Event(
             persistent.event_database,
             eventlabel="noroses_housewife",
-            category=["life"],
+            category=["Vida"],
             prompt="What if I was a housewife for you?",
             pool=True,
             unlocked=True
