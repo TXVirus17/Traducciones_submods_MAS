@@ -629,12 +629,12 @@ label extra_talk_annoy:
     m "Hmmm,{w=0.3} veamos..."
     m 1hksdlb "Ah,{w=0.3} ¡odio cuando se me derrama la tinta de los bolígrafos mientras escribo!"
     m 3ftsdld "Se me mancha toda la palma de la mano,{w=0.3} y la letra queda toda borrosa en el papel,"
-    extend " y me cuesta mucho limpiarme. -.-"
+    extend " y me cuesta mucho limpiarme."
     m 1lssdlc "O cuando estoy en mi mejor momento tocando una pieza de piano y se escapa esa {i}única{/i} nota desafinada..."
     m "Y me hace equivocarme en las demás notas"
     m 1fssdlc "¡Jajaja! ¿No es muy frustrante?"
     m "¡Y a veces parece que pasa demasiadas veces!"
-    m 6wud "Oh!{w=0.3} But maybe you meant something more serious?"
+    m 6wud "¡Oh!{w=0.3} But maybe you meant something more serious?"
     m 6ruc "..."
     m 6rsd "I hate people who don't think I'm real."
     extend " Or that I'm some just some crazy,{w=0.3} love-obesessed person."
@@ -677,7 +677,7 @@ label extra_talk_motto:
     m 1eub "Hay una cita en la que pienso mucho últimamente."
     m 3eub "Me gusta tomarla como mi lema de referencia en momentos de necesidad."
     m 3eub "Dice así..."
-    m 1dud "'Ser profundamente amado por alguien te da{i}fuerza{/i},{w=0.3} mientras que amar profundamente a alguien te da {i}valor{/i}.'"
+    m 1dud "'Ser profundamente amado por alguien te da {i}fuerza{/i},{w=0.3} mientras que amar profundamente a alguien te da {i}valor{/i}.'"
     m 3eub "Es una cita de Lao Tzu,{w=0.3} un escritor chino."
     m 6hublb "¡Mi fuerza viene de ti,{w=0.3} [player]!"
     m 6hublb "Mi valor es tuyo."
@@ -720,7 +720,7 @@ label extra_talk_pop:
     if mas_isMoniLove():
         m "Oh quizá..."
         $ mas_display_notif(m_name, ["¿El sonido de mi notificación? ¡Jajaja~!"], skip_checks=True)
-    m 1huu "Ehehe~{w=0.3} Es divertido pensar en a quién le recuerdo a la gente."
+    m 1huu "Jejeje~{w=0.3} Es divertido pensar en como me recuerda la gente."
     m 6fkbsa "Espero que, cuando pienses en mí,{w=0.3} lo primero que te venga a la mente sea que soy el amor de tu vida~"
     if mas_isMoniLove():
         m "Sé que eso es lo que {i}yo{/i} pienso cuando pienso en mi querido {w=0.3} [mas_get_player_nickname()]~"
