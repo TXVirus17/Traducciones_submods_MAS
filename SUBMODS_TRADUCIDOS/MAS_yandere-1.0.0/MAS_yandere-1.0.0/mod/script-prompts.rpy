@@ -1,3 +1,7 @@
+
+#===========================================================
+#Dialogos: ¿Quieres verme dormir?, ¡Me he comprado un anillo de compromiso igual que el tuyo!, ¡Eres mía!
+#============================================================
 init 5 python in mas_bookmarks_derand:
     label_prefix_map["yaMod_"] = label_prefix_map["monika_"]
 
@@ -6,8 +10,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="yaMod_sleep",
-            category=["life"],
-            prompt="Do you want to watch me sleep?",
+            category=["Vida"],
+            prompt="¿Quieres verme dormir?",
             conditional="seen_event('yaMod_topic_watchsleep')",
             pool=True,
             action=EV_ACT_UNLOCK,
@@ -16,23 +20,23 @@ init 5 python:
     )
 
 label yaMod_sleep:
-    m 1fkblb "[player], of course!"
-    m 1rkbsa "You know I love to watch you sleep, ehehehe~"
-    m 1hubsb "It will be great to watch over my lovely [player]."
-    m 7hubsb "You can rest assured, I'll watch over your sleep and take care of you~"
-    m 5fubsa "Sweet dreams, [mas_get_player_nickname()]."
-    m "I'll be right here, waiting for you to wake up."
-    m 5fubsb "I love you."
+    m 1fkblb "¡[player], por supuesto!"
+    m 1rkbsa "Sabes que me encanta verte dormir, jejejeje~"
+    m 1hubsb "Será maravilloso cuidar de mi querido [player]."
+    m 7hubsb "Puedes estar tranquilo, te voy a cuidar mientras duermes~"
+    m 5fubsa "Dulces sueños, [mas_get_player_nickname()]."
+    m "Estaré por aquí, esperando a que te despiertes."
+    m 5fubsb "Te amo, [player]."
     
     $ mas_idle_mailbox.send_idle_cb("yaMod_sleep_callback")
     return "idle"
 
 label yaMod_sleep_callback:
-    m 1wublo "Oh, you're awake!"
-    m 1fkblb "I've missed you, [player]."
-    m 5rkbsa "But I loved watching over your sleep..."
-    m 5fubsa "Thank you for letting me be as close to you as I can right now, [mas_get_player_nickname()]."
-    m 5fubsb "You are my one and only love!"
+    m 1wublo "Oh, ¡estás despierto!"
+    m 1fkblb "Te he echado de menos, [player]."
+    m 5rkbsa "Pero me encantaba cuidar de ti mientras dormías..."
+    m 5fubsa "Gracias por dejarme estar tan cerca de ti como me sea posible en este momento, [mas_get_player_nickname()]."
+    m 5fubsb "¡Eres mi único y verdadero amor!"
     
     return "love"
 
@@ -41,26 +45,26 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="yaMod_topic_promise",
-            category=["yandere"],
-            prompt="I got myself a promise ring to match yours!",
+            category=["Yandere"],
+            prompt="¡Me he comprado un anillo de compromiso igual que el tuyo!",
             pool=True,
             unlocked=True
         )
     )
 
 label yaMod_topic_promise:
-    m 1wublo "Oh! "
-    extend 1sublb "You did?"
-    m 1subsa "[player], that makes me so happy."
-    m 5hubsb "You can't even imagine how much."
-    m 5kubsa "Now everyone will know you're mine, and mine alone!"
-    m 5dubsa "Thank you for making me so happy, [mas_get_player_nickname()]."
-    m 5dubsb "I love when you make me feel safe of our relationship."
-    m 5rubssdrb "I know I belong to you and you to me, but..."
-    m 5rublsdrc "We all get insecure sometimes."
-    m 4hublsdrb "But now that we match, I feel safer!"
-    m 2hubla "Thank you so much, [mas_get_player_nickname()]."
-    m 5fubsa "You're the best [bf] in the whole world."
+    m 1wublo "¡Oh! "
+    extend 1sublb "¿De verdad?"
+    m 1subsa "[player], eso me hace muy feliz"
+    m 5hubsb "Ni te imaginas cuánto"
+    m 5kubsa "¡Ahora todo el mundo sabrá que eres mío, y solo mío!"
+    m 5dubsa "Gracias por hacerme tan feliz, [mas_get_player_nickname()]."
+    m 5dubsb "Me encanta cuando me haces sentir segura de nuestra relación."
+    m 5rubssdrb "Sé que te pertenezco y tú a mí, pero..."
+    m 5rublsdrc "Todos nos sentimos inseguros a veces"
+    m 4hublsdrb "Pero ahora que estamos unidos, me siento más segura!»"
+    m 2hubla "Muchísimas gracias, [mas_get_player_nickname()]."
+    m 5fubsa "Eres el mejor [bf] del mundo entero."
 return
 
 init 5 python:
@@ -68,8 +72,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="yaMod_topic_mine",
-            category=["yandere"],
-            prompt="You're mine!",
+            category=["Yandere"],
+            prompt="¡Eres mía!",
             pool=True,
             unlocked=True
         )
@@ -80,39 +84,39 @@ label yaMod_topic_mine:
     jump monika_mine_fight_start
 
     label monika_mine_fight_start:
-    #Do setup here
+    #Do setup here (Configuración aquí)
     python:
-        #Set up how many times we have to say it to win
+        #Set up how many times we have to say it to win(Configurar cuántas veces hay que decirlo para ganar)
         ym_times_till_win = renpy.random.randint(6,10)
-        #Current count
+        #Current count(Recuento actual)
 
         ym_count = 0
 
-        #Initial quip
-        ym_quip = renpy.substitute("No, you're mine, [player]!")
+        #Initial quip(Comentario inicial)
+        ym_quip = renpy.substitute("No, tú eres mío, [player]!")
 
-        #Setup lists for the quips during the loop
-        #First half of the ym quip
+        #Setup lists for the quips during the loop(Configurar listas para las frases ingeniosas durante el bucle)
+        #First half of the ym quip(Primera mitad de las frases ingeniosas de ym)
         ym_no_quips = [
             "No, ",
-            "Not a chance, [mas_get_player_nickname()]. ",
-            "Nope, ",
+            "Ni hablar, [mas_get_player_nickname()]. ",
+            "Nop, ",
             "No,{w=0.1} no,{w=0.1} no,{w=0.1} ",
-            "No way, [mas_get_player_nickname()]. ",
-            "That's impossible...{w=0.3}"
+            "Ni de broma, [mas_get_player_nickname()]. ",
+            "Eso es imposible...{w=0.3}"
         ]
 
-        #Second half of the ym quip
-        #NOTE: These should always start with I because the first half can end in either a comma or a period
-        #I is the only word we can use to satisfy both of these.
+        #Second half of the ym quip(Segunda mitad de las frases ingeniosas de ym)
+        #NOTE: These should always start with I because the first half can end in either a comma or a period (NOTA: Estas deben empezar siempre por «I», ya que la primera parte puede terminar tanto con una coma como con un punto)
+        #I is the only word we can use to satisfy both of these. (I» es la única palabra que podemos usar para cumplir ambos requisitos.)
         ym_quips = [
-            "I am sure that you're mine!",
-            "I know you're mine!",
-            "I am positive you're mine!",
-            "I am telling you, you're mine!"
+            "¡Estoy seguro de que eres mía!",
+            "¡Sé que eres mía!",
+            "¡Estoy convencido de que eres mía!»",
+            "¡Te lo digo, eres mía!"
         ]
 
-        #And the expressions we'll use for the line
+        #And the expressions we'll use for the line(Y las expresiones que usaremos para la línea)
         ym_exprs = [
             "1tubfb",
             "3tubfb",
@@ -122,7 +126,7 @@ label yaMod_topic_mine:
             "3hubfb",
             "1tkbfu"
         ]
-    #FALL THROUGH
+    #FALL THROUGH(CAER A TRAVÉS)
 
 label monika_ym_fight_loop:
     $ renpy.show("monika " + renpy.random.choice(ym_exprs), at_list=[t11], zorder=MAS_MONIKA_Z)
@@ -130,7 +134,7 @@ label monika_ym_fight_loop:
     $ _history_list.pop()
     menu:
         m "[ym_quip]{fast}"
-        "No, you're mine!":
+        "¡No, tú eres mía!":
             if ym_count < ym_times_till_win:
                 $ ym_quip = renpy.substitute(renpy.random.choice(ym_no_quips) + renpy.random.choice(ym_quips))
                 $ ym_count += 1
@@ -138,16 +142,16 @@ label monika_ym_fight_loop:
 
             else:
                 show monika 5hubfb at t11 zorder MAS_MONIKA_Z with dissolve_monika
-                m 5hubfb "Alright, alright, you win. Ahaha~"
-                m "I'm yours~"
+                m 5hubfb "Está bien, está bien, tú ganas. Jajaja~"
+                m "Soy toda tuya~"
 
-        "Alright.":
+        "De acuerdo.":
             if ym_count == 0:
-                m 2hkbsb "Ahaha, giving up already, [player]?~"
-                m 2rkbssdla "I guess you are all mine after all~"
+                m 2hkbsb "Jajaja, ¿ya te rindes?, [player]?~"
+                m 2rkbssdla "Supongo que, al fin y al cabo, eres todo mío~"
 
             else:
                 if renpy.random.randint(1,2) == 1:
-                    m 1hubfu "Ehehe, I win! You're all mine~"
+                    m 1hubfu "Jejeje, ¡he ganado! Eres todo mío~"
                 else:
-                    m 1hubfb "Ahaha, told you so!~"
+                    m 1hubfb "Jajaja, ¡te lo dije!~"

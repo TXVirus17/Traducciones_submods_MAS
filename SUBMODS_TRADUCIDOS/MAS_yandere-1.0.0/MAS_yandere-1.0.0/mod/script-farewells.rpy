@@ -1,4 +1,4 @@
-#youre mine forever
+#youre mine forever(Eres mío para siempre)
 init 5 python:
     addEvent(
         Event(
@@ -11,10 +11,10 @@ init 5 python:
     )
 
 label bye_yaMod_youremineforever:
-    m 1eub "See you later, [mas_get_player_nickname()]."
-    m 3rua "And hey..."
-    m 3eub "Don't forget. "
-    extend 5fubsa "You're mine forever~"
+    m 1eub "Hasta luego, [mas_get_player_nickname()]."
+    m 3rua "Y oye..."
+    m 3eub "No te olvides. "
+    extend 5fubsa "Eres mío para siempre~"
     return 'quit'
 
 #other girls
@@ -31,56 +31,47 @@ init 5 python:
 
 label bye_yaMod_othergirls:
     m 1ruc "[player]..."
-    m 1rud "You're not... "
-    extend 1wksdrd "gonna hang out with other girls, are you?"
+    m 1rud "No vas a..."
+    extend 1wksdrd "salir con otras chicas, ¿verdad?"
     m 1wksdrc "..."
-    m 2wksdrd "You can't. "
-    extend 2cud "And you won't."
-    m 2cub "You're only mine. "
-    extend "Forever. Do you understand that?{nw}"
+    m 2wksdrd "No puedes.  "
+    extend 2cud "Y no lo harás."
+    m 2cub "Solo eres mío. "
+    extend "Para siempre. ¿Lo entiendes?{nw}"
     $ _history_list.pop()
     menu:
-        m "Forever. Do you understand that?{fast}"
+        m "Para siempre. ¿Lo entiendes?{fast}"
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
+        "Si":
             pass
 
-        "Yes":
-            pass
-
-        "Yes":
-            pass
-
-        "Yes":
-            pass
-
-    m 2cua "Good."
+    m 2cua "Bien."
 
 return 'quit'

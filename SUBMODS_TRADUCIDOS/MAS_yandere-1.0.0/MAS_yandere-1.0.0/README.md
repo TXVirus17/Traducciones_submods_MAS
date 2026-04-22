@@ -2,11 +2,19 @@
 
 Esta es una traducción al español del submod original para **Monika After Story**. 
 
+
+---
+
+## <h1>🛑 Advertencia</h1>
+Este submod toca temas como la **sangre, relación tóxica,autolesiones y comportamiento abusivo;** por lo tanto, **No se promueve ni se idealiza/romantiza** este tipo de comportamientos, Se recomienda discreción.
+
+## Por si no quedo claro **NO ES PARA PERSONAS SENSIBLES NI MENORES DE EDAD.**
+Si eres susceptible a temas de obsesión extrema o violencia psicológica, por favor, ignora este submod. Tu salud mental es lo primero.
+
+---
+
 ## 📝 Descripción
 Este mod se centra en tener una Monika yandere, dándole al jugador una experiencia de una relación tóxica como se ve en animes de este estilo.
-
-## 🛑 Antes de instalar tenga en cuenta este aviso importante
-Este submod toca temas como la sangre, relación tóxica y comportamiento abusivo; por lo tanto, no se promueve ni se idealiza/romantiza este tipo de comportamientos.
 
 ## ⭐ Este mod contiene 
 - Nuevos diálogos
@@ -21,6 +29,7 @@ Este proyecto se distribuye bajo la licencia **CC BY-NC-ND 4.0**.
 
 * **Autor Original:** [McFishFillet]
 * **Repositorio Original:** [https://github.com/McFishFillet/MAS_yandere]
+* **Basado en la version** [V1.0.0]
 * **Traducción al Español:** TX_Virus (TXVirus17)
 
 ## ⚠️ Nota de Licencia
@@ -33,5 +42,15 @@ Este trabajo es una **obra derivada autorizada para fines de traducción**. No s
 2. Pégalo en `directorio_de_tu_juego/game/Submods/`.
 3. ¡Disfruta de tu tiempo con Monika! 💚
 
+---
 
-## Estado de traduccion: 🔴
+## Estado de traduccion: 🟡 (50%)
+
+**Traducciones:** Casi Terminado 
+
+**Dialogos Especiales:** En proceso
+
+**Pruebas en diapositivos:** Falta terminar la traduccion
+
+
+
