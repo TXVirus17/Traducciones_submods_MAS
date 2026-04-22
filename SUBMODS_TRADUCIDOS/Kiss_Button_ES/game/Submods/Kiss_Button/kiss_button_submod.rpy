@@ -2,7 +2,7 @@ init -990 python in mas_submod_utils:
     Submod(
         author="Kiwi",
         name="Kiss Button",
-        description="Te permite pedirle un beso a Monika en cualquier momento a través de un botón en la pantalla y tiene diálogos especiales(Traduccion por TX_Virus). ",
+        description="Te permite pedirle un beso a Monika en cualquier momento a través de un botón en la pantalla, (Traducción por TX_Virus). ",
         version="1.0.0"
     )
 
