@@ -2,7 +2,7 @@ init -990 python in mas_submod_utils:
     Submod(
         author="Kiwi",
         name="Kiss Button",
-        description="Lets you ask Monika for a kiss.",
+        description="Te permite pedirle un beso a Monika en cualquier momento a través de un botón en la pantalla y tiene diálogos especiales(Traduccion por TX_Virus). ",
         version="1.0.0"
     )
 
@@ -159,13 +159,13 @@ label mas_kiss_button_wrapper:
 label mas_kiss_button_not_ready:
     m 1eka "Aww, [player]..."
     m 1ekbsa "Te agradezco mucho que quieras besarme..."
-    m 3rksdla "Pero creo que deberíamos esperar al momento adecuado"
+    m 3rksdla "Pero creo que deberíamos esperar al momento adecuado."
     m 1ekbfa "Cuando llegue el momento, será algo muy especial~"
     jump ch30_loop
 
 # Label for when affection is too low(etiqueta cuando el afecto es my bajo)
 label mas_kiss_button_low_aff:
     m 1eka "Aww, [player]..."
-    m 3eka "Te agradezco el detalle, pero creo que primero deberíamos conocernos un poco mejor"
+    m 3eka "Te agradezco el detalle, pero creo que primero deberíamos conocernos un poco mejor."
     m 1hua "Pasemos más tiempo juntos, ¿vale?"
     jump ch30_loop
