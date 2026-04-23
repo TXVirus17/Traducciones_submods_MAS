@@ -48,9 +48,9 @@ Este trabajo es una **obra derivada autorizada para fines de traducción**. No s
 
 **Traducciones:** Listo ✅
 
-**Dialogos Especiales:** Casi listo ⭕
+**Dialogos Especiales:** Listo ✅
 
-**Pruebas en diapositivos:** Cercano a las pruebas. ❌
+**Pruebas en diapositivos:** En estado de pruebas
 
 
 

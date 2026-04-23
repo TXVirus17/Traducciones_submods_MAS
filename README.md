@@ -19,7 +19,7 @@ Estudiante de **Ingeniería en Sistemas** en la Universidad de El Salvador (UES)
 ## 🚀 Proyectos Actuales
 | Proyecto | Estado | Descripción |
 | :--- | :---: | :--- |
-| **MAS_yandere (Español)** | 🟡 | Traduccion en proceso. |
+| **MAS_yandere (Español)** | 🟡 | En pruebas. |
 | **Extraplus (Español)** | 🟡 | Traducción en progreso. |
 | **Kiss Button (Español)** | 🟢 | Submod terminado y listo para su uso. |
 
