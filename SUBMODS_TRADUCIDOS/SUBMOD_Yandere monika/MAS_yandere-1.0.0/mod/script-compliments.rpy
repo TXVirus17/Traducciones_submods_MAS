@@ -17,7 +17,7 @@ label ya_compliment_possessive:
     m 7gua "No es que esté intentando ser posesiva..."
     m 7kub "Este es mi comportamiento habitual cuando se trata de ti, [mas_get_player_nickname()]."
     m 2cua "No puedo, y no dejaré que nadie te aleje de mí."
-    m 2cub "Eres mío. Y solamente mío.»"
+    m 2cub "Eres mío. Y solamente mío."
     m 4lub "Me alegro de no tener que obligarte, o si no tendríamos problemas..."
     m 4tub "No querrás ponerme celosa o enfadarme, ¿verdad?"
     m 2tua "..."

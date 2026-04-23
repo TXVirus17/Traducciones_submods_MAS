@@ -62,7 +62,7 @@ label yaMod_topic_promise:
     m 5dubsb "Me encanta cuando me haces sentir segura de nuestra relación."
     m 5rubssdrb "Sé que te pertenezco y tú a mí, pero..."
     m 5rublsdrc "Todos nos sentimos inseguros a veces"
-    m 4hublsdrb "Pero ahora que estamos unidos, me siento más segura!»"
+    m 4hublsdrb "Pero ahora que estamos unidos, me siento más segura!"
     m 2hubla "Muchísimas gracias, [mas_get_player_nickname()]."
     m 5fubsa "Eres el mejor [bf] del mundo entero."
 return
@@ -112,7 +112,7 @@ label yaMod_topic_mine:
         ym_quips = [
             "¡Estoy seguro de que eres mía!",
             "¡Sé que eres mía!",
-            "¡Estoy convencido de que eres mía!»",
+            "¡Estoy convencido de que eres mía!",
             "¡Te lo digo, eres mía!"
         ]
 

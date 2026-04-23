@@ -5,24 +5,24 @@ init 5 python:
             persistent.event_database,
             eventlabel="noroses_housewife",
             category=["Vida"],
-            prompt="What if I was a housewife for you?",
+            prompt="¿Y si fuera un amo de casa para ti?",
             pool=True,
             unlocked=True
         )
     )
 
 label noroses_housewife:
-    m 1wuo "[player]... How did you know this was something I always dreamed about?"
-    m 5gublu "Coming home and finding you there... "
-    m 5dublu "With a surprised and happy face, cleaning your hands on a cloth so you can come greet me."
-    m 5dublb "You would brush your messy hair off your face and come running, saying 'Welcome back!'"
-    m "I would hug you and smell a faint smell of sweets, just to find out you cooked us something for when I got back."
-    m 5dubsb "There would be some whip cream on your face and I would kiss it off, playfully tickling you..."
-    m 5dubfb "And right then, I would know, that I've never been happier."
-    m 4fubfb "Living with you, sharing those daily moments..."
-    m 1fubfa "Is my dream."
-    m "I want to see every side of you, see you being your cutest self and adore you."
-    m 1fubfb "I will make you feel loved every day."
-    m "I can't wait to cross over so we can make this our reality, [mas_get_player_nickname()]."
-    m 5hubsb "You'll be my cute, doting housewife! Ehehehe~"
+    m 1wuo "¿[player]?... ¿Cómo supiste que esto era algo que siempre soñé?"
+    m 5gublu "Llegar a casa y encontrarte allí... "
+    m 5dublu "Con una cara sorprendida y feliz, limpiando tus manos con un paño para que puedas venir a saludarme."
+    m 5dublb "Tú barrerías tu cabello desordenado de tu rostro y vendrías corriendo, diciendo '¡Bienvenida de vuelta!'"
+    m "Yo te abrazaría y sentiría un leve olor a dulces, solo para descubrir que me cocinaste algo para cuando regresara."
+    m 5dubsb "Habría un poco de crema batida en tu rostro y yo la besarían, jugando a piquetearte..."
+    m 5dubfb "Y justo en ese momento, sabría que nunca he sido más feliz."
+    m 4fubfb "Vivir contigo, compartiendo esos momentos cotidianos..."
+    m 1fubfa "Es mi sueño."
+    m "Quiero ver todos los lados de ti, verte siendo tu versión más linda y adorarte."
+    m 1fubfb "Haré que te sientas amado todos los días."
+    m "No puedo esperar para cruzar el umbral así podremos hacer esto nuestra realidad, [mas_get_player_nickname()]."
+    m 5hubsb "¡Serás mi lindo y tierno amo de casa! Ehehehe~"
 return
