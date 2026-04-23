@@ -55,13 +55,13 @@ init 5 python:
 label yaMod_topic_promise:
     m 1wublo "¡Oh! "
     extend 1sublb "¿De verdad?"
-    m 1subsa "[player], eso me hace muy feliz"
-    m 5hubsb "Ni te imaginas cuánto"
+    m 1subsa "[player], eso me hace muy feliz."
+    m 5hubsb "Ni te imaginas cuánto."
     m 5kubsa "¡Ahora todo el mundo sabrá que eres mío, y solo mío!"
     m 5dubsa "Gracias por hacerme tan feliz, [mas_get_player_nickname()]."
     m 5dubsb "Me encanta cuando me haces sentir segura de nuestra relación."
     m 5rubssdrb "Sé que te pertenezco y tú a mí, pero..."
-    m 5rublsdrc "Todos nos sentimos inseguros a veces"
+    m 5rublsdrc "Todos nos sentimos inseguros a veces."
     m 4hublsdrb "Pero ahora que estamos unidos, me siento más segura!"
     m 2hubla "Muchísimas gracias, [mas_get_player_nickname()]."
     m 5fubsa "Eres el mejor [bf] del mundo entero."
@@ -110,10 +110,10 @@ label yaMod_topic_mine:
         #NOTE: These should always start with I because the first half can end in either a comma or a period (NOTA: Estas deben empezar siempre por «I», ya que la primera parte puede terminar tanto con una coma como con un punto)
         #I is the only word we can use to satisfy both of these. (I» es la única palabra que podemos usar para cumplir ambos requisitos.)
         ym_quips = [
-            "¡Estoy seguro de que eres mía!",
-            "¡Sé que eres mía!",
-            "¡Estoy convencido de que eres mía!",
-            "¡Te lo digo, eres mía!"
+            "¡Estoy seguro de que eres mío!",
+            "¡Sé que eres mío!",
+            "¡Estoy convencida de que eres mío!",
+            "¡Te lo digo, eres mío!"
         ]
 
         #And the expressions we'll use for the line(Y las expresiones que usaremos para la línea)

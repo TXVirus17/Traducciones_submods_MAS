@@ -21,6 +21,6 @@ label ya_compliment_possessive:
     m 4lub "Me alegro de no tener que obligarte, o si no tendríamos problemas..."
     m 4tub "No querrás ponerme celosa o enfadarme, ¿verdad?"
     m 2tua "..."
-    m 2tub "Eso pensaba"
+    m 2tub "Eso pensaba."
     m 5hua "¡Te amo, mi [player]!"
 return "love"
