@@ -44,13 +44,13 @@ Este trabajo es una **obra derivada autorizada para fines de traducción**. No s
 
 ---
 
-## Estado de traduccion: 🟡 (70%)
+## Estado de traduccion: 🟡 (80%)
 
 **Traducciones:** Listo ✅
 
 **Dialogos Especiales:** Listo ✅
 
-**Pruebas en diapositivos:** En estado de pruebas
+**Pruebas en diapositivos:** En estado de pruebas (Prueba 2 en ejecucion)
 
 
 
